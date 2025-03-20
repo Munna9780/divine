@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { ExternalLink, Maximize2, Info } from 'lucide-react';
 import type { ArtProduct, SizeVariant } from '../types';
+import { useProductSync } from '../hooks/useProductSync';
 
 interface ProductCardProps {
   product: ArtProduct;
 }
 
 export function ProductCard({ product }: ProductCardProps) {
+  const { products } = useProductSync();
   const [showPreview, setShowPreview] = useState(false);
   const [selectedSize, setSelectedSize] = useState<SizeVariant | null>(() => 
     product.sizes.length > 0 ? product.sizes[0] : null
