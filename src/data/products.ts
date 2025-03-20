@@ -1,0 +1,62 @@
+export const products = [
+  {
+    id: '1',
+    title: 'Abstract Harmony in Blue',
+    description: 'A stunning piece that brings depth and serenity to any room',
+    imageUrl: 'https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&q=80&w=2940',
+    roomPreviewUrl: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=2940',
+    isActive: true,
+    sizes: [
+      {
+        id: '1-s',
+        width: 24,
+        height: 18,
+        depth: 1.5,
+        price: 199.99,
+        affiliateLink: 'https://amazon.com/small',
+      },
+      {
+        id: '1-m',
+        width: 36,
+        height: 24,
+        depth: 1.5,
+        price: 299.99,
+        affiliateLink: 'https://amazon.com/medium',
+      },
+      {
+        id: '1-l',
+        width: 48,
+        height: 36,
+        depth: 1.5,
+        price: 399.99,
+        affiliateLink: 'https://amazon.com/large',
+      },
+    ],
+  },
+  {
+    id: '2',
+    title: 'Urban Perspectives',
+    description: 'Modern cityscape captured in bold, contemporary strokes',
+    imageUrl: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912?auto=format&fit=crop&q=80&w=2940',
+    roomPreviewUrl: 'https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?auto=format&fit=crop&q=80&w=2940',
+    isActive: true,
+    sizes: [
+      {
+        id: '2-s',
+        width: 20,
+        height: 16,
+        depth: 1.5,
+        price: 149.99,
+        affiliateLink: 'https://amazon.com/small',
+      },
+      {
+        id: '2-m',
+        width: 30,
+        height: 24,
+        depth: 1.5,
+        price: 249.99,
+        affiliateLink: 'https://amazon.com/medium',
+      },
+    ],
+  },
+];
